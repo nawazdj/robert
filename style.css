@@ -1,0 +1,42 @@
+#logo{
+	margin-left: 80px;
+    margin-top: 0px;
+    float: left;
+    padding: 0px;
+    display: block;
+}
+
+li{
+	/*position: relative;*/
+	text-align: center;
+	display: inline;
+	margin-left: 55px;
+	float: left;
+	/*padding: 0px -50px;*/
+	margin-top: 25px;
+	letter-spacing: .01px;
+}
+
+#header{
+	height: 65px;
+	width: auto;
+	font-family: roboto slab medium;
+}
+
+body header ul li a{
+	color: #000;
+	font-weight: 300;
+	text-decoration: none;
+	max-width: 10px;
+
+}
+
+#hire{
+	background-color: #aed57c;
+	border-radius: 3px;
+	padding: 10px;
+	background-position:center;
+	color: #fff; 
+	text-decoration:none;
+	font-family: inherit;
+}
