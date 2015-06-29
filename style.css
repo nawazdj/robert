@@ -39,7 +39,7 @@ header ul li a{
 
 
 header ul li:last-child {
-	color: #EF9E6E; 
+	color: #EF9E6E; /* this color changing code is not working*/
 	background-color: #aed57c;
 	border-radius: 3px;
 	padding: 10px;
@@ -47,7 +47,7 @@ header ul li:last-child {
 	text-decoration:none;
 
 }
-
+/*asif look here*/
 a:last-child + a:hover{
 	color: #000000;
 	text-decoration: none;
