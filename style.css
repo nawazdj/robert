@@ -9,34 +9,52 @@
 li{
 	/*position: relative;*/
 	text-align: center;
-	display: inline;
-	margin-left: 55px;
-	float: left;
+	display: inline-block;
+	margin-left: 10px;
 	/*padding: 0px -50px;*/
 	margin-top: 25px;
 	letter-spacing: .01px;
 }
 
+#header ul{
+text-align: right;
+}
 #header{
 	height: 65px;
 	width: auto;
 	font-family: roboto slab medium;
 }
+a:hover {
+	color: #AED57C;
+}
 
-body header ul li a{
+header ul li a{
 	color: #000;
 	font-weight: 300;
 	text-decoration: none;
 	max-width: 10px;
+	font-weight: 400;
 
 }
 
-#hire{
+
+header ul li:last-child {
+	color: #EF9E6E; 
 	background-color: #aed57c;
 	border-radius: 3px;
 	padding: 10px;
 	background-position:center;
-	color: #fff; 
 	text-decoration:none;
-	font-family: inherit;
+
+}
+
+a:last-child + a:hover{
+	color: #000000;
+	text-decoration: none;
+	font-weight: 30px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
 }

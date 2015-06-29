@@ -5,6 +5,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Project Robert</title>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="owl-carousel/owl.theme.css">
+	<link rel="stylesheet" type="text/css" href="owl-carousel/owl.transition.css">
 </head>
 <body>
 	<header id="header" class="">
@@ -20,5 +23,43 @@
 			<li><a id="hire" href="#" title="">HIRE ME</a></li>
 		</ul>
 	</header><!-- /header -->
+
+	<div>
+		<div id="owl-demo" class="owl-carousel owl-theme">
+ 
+  			<div class="item"><img src="images/fullimage1.jpg" alt="The Last of us"></div>
+  			<div class="item"><img src="images/fullimage2.jpg" alt="GTA V"></div>
+  			<div class="item"><img src="images/fullimage3.jpg" alt="Mirror Edge"></div>
+  			<div class="item"><img src="images/fullimage5.jpg" alt="Mirror Edge"></div>
+  		</div>
+	</div>
+	
+
+
+<!-- jquery and carousel plugin attached below -->
+	<script src="jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	<script src="owl-carousel/owl.carousel.js" type="text/javascript" charset="utf-8"></script>
+
+	<script>
+ 		$(document).ready(function() {
+ 
+  			$("#owl-demo").owlCarousel({
+ 
+     			 navigation : true, // Show next and prev buttons
+     			 slideSpeed : 300,
+     			 paginationSpeed : 400,
+     			 singleItem:true
+ 
+     			 // "singleItem:true" is a shortcut for:
+     			 // items : 1, 
+			     // itemsDesktop : false,
+			     // itemsDesktopSmall : false,
+			     // itemsTablet: false,
+			     // itemsMobile : false
+ 
+ 				 });
+ 
+				});
+ 		</script>
 </body>
 </html>
