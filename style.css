@@ -12,14 +12,14 @@ li{
 	display: inline-block;
 	margin-left: 10px;
 	/*padding: 0px -50px;*/
-	margin-top: 25px;
+	margin-top: 20px;
 	letter-spacing: .01px;
 }
 
-#header ul{
-text-align: right;
+header ul{
+	text-align: right;
 }
-#header{
+header{
 	height: 65px;
 	width: auto;
 	font-family: roboto slab medium;
@@ -57,4 +57,8 @@ a:last-child + a:hover{
     display: block;
     width: 100%;
     height: auto;
+}
+
+h1{
+	position: relative;
 }
