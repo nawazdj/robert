@@ -38,15 +38,16 @@ header ul li a{
 }
 
 
-header ul li:last-child {
-	color: #EF9E6E; /* this color changing code is not working*/
+header ul li:last-child a {
 	background-color: #aed57c;
 	border-radius: 3px;
 	padding: 10px;
 	background-position:center;
 	text-decoration:none;
+	color: #EF9E6E; /* this color changing code is not working*/
 
 }
+
 /*asif look here. Is this ok?*/
 a:last-child + a:hover{
 	color: #000000;
